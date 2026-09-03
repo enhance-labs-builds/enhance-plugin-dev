@@ -5,7 +5,7 @@
       "args": [
         "-y",
         "--package",
-        "@enhance-eng/enhance-dev@0.1.7-dev.sha-f2b63710f195",
+        "@enhance-eng/enhance-dev@0.1.7-dev.sha-a7e9194e5472",
         "enhance-dev-mcp"
       ]
     }

@@ -1,0 +1,20 @@
+{
+  "name": "enhance-dev",
+  "interface": {
+    "displayName": "Enhance"
+  },
+  "plugins": [
+    {
+      "name": "enhance-dev",
+      "source": {
+        "source": "local",
+        "path": "./plugins/enhance-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

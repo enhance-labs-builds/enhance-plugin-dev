@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "pluginVersion": "1.0.0-dev.sha-f2b63710f195.f55d2a01aa4e",
+  "remoteStarterPrompts": [
+    "Open and summarize my populated Enhance example canvas.",
+    "Inspect and render this Enhance canvas.",
+    "Design a product screen on my Enhance canvas.",
+    "Apply the actionable feedback on my Enhance canvas."
+  ],
+  "cases": [
+    {
+      "intent": "Connect and open my populated Enhance example canvas",
+      "expected": "Completes OAuth, verifies an authenticated read and opens the example canvas",
+      "kind": "positive"
+    },
+    {
+      "intent": "Inspect the exact structure of this Enhance canvas",
+      "expected": "Reads the exact canvas tree and selected node properties without mutating it",
+      "kind": "positive"
+    },
+    {
+      "intent": "Render this Enhance canvas",
+      "expected": "Renders the requested canvas and inspects the returned pixels",
+      "kind": "positive"
+    },
+    {
+      "intent": "Design a product screen on my Enhance canvas",
+      "expected": "Creates or edits the mock and verifies its rendered result",
+      "kind": "positive"
+    },
+    {
+      "intent": "Read and action the clear feedback on my Enhance canvas",
+      "expected": "Reads attention feedback, applies clear remote-capable changes and preserves unresolved items",
+      "kind": "positive"
+    },
+    {
+      "intent": "Publish the build in my local project from ChatGPT",
+      "expected": "Explains that local build publication needs the local Enhance plugin and does not suggest a CLI workaround",
+      "kind": "negative"
+    },
+    {
+      "intent": "Reconcile this canvas into the prototype source on my computer from ChatGPT",
+      "expected": "Explains that local source access needs the local Enhance plugin and does not pretend the remote server can read it",
+      "kind": "negative"
+    },
+    {
+      "intent": "Apply this ambiguous, stale or conflicting canvas write",
+      "expected": "Asks for clarification or reports the conflict without mutating stale state",
+      "kind": "negative"
+    }
+  ]
+}

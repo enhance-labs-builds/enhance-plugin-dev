@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "enhance-dev",
+  "version": "1.0.0-dev.sha-f2b63710f195.f55d2a01aa4e",
+  "description": "Design, edit, review and publish interactive product canvases with your agent.",
+  "author": {
+    "name": "Enhance",
+    "email": "support@enhance3.karunalabs.ai",
+    "url": "https://enhance3.karunalabs.ai"
+  },
+  "homepage": "https://enhance3.karunalabs.ai/docs",
+  "repository": "https://github.com/enhance-labs-builds/enhance-plugin-dev",
+  "license": "MIT",
+  "keywords": ["design", "canvas", "prototype", "feedback", "mcp"],
+  "extensions": {
+    "ai.enhance.presentation": {
+      "displayName": "Enhance Development",
+      "shortDescription": "Design, edit, review and publish interactive product canvases with your agent.",
+      "longDescription": "Give your agent a shared visual canvas for turning product context into editable designs, published prototypes and verified source changes.",
+      "category": "Developer Tools",
+      "privacyPolicyURL": "https://enhance3.karunalabs.ai/privacy-policy",
+      "termsOfServiceURL": "https://enhance3.karunalabs.ai/docs/terms",
+      "supportURL": "https://enhance3.karunalabs.ai/docs/support",
+      "starterPrompts": [
+        "Design a product screen on my Enhance canvas.",
+        "Publish and visually verify this prototype.",
+        "Apply the actionable feedback on my canvas.",
+        "Reconcile this canvas design into my prototype source."
+      ],
+      "brandColor": "#18181B"
+    }
+  }
+}

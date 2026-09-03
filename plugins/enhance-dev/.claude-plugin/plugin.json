@@ -1,0 +1,13 @@
+{
+  "name": "enhance-dev",
+  "version": "1.0.0-dev.sha-f2b63710f195.f55d2a01aa4e",
+  "description": "Design, edit, review and publish interactive product canvases with your agent.",
+  "author": {
+    "name": "Enhance",
+    "email": "support@enhance3.karunalabs.ai"
+  },
+  "homepage": "https://enhance3.karunalabs.ai/docs",
+  "repository": "https://github.com/enhance-labs-builds/enhance-plugin-dev",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json"
+}

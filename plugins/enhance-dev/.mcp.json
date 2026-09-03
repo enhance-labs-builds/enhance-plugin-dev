@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "enhance-dev": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "--package",
+        "@enhance-eng/enhance-dev@0.1.7-dev.sha-f2b63710f195",
+        "enhance-dev-mcp"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "channel": "development",
+  "pluginVersion": "1.0.0-dev.sha-f2b63710f195.f55d2a01aa4e",
+  "node": {
+    "minimum": "24"
+  },
+  "hosts": {
+    "claude-code": {
+      "minimum": "2.1.143",
+      "current": "2.1.245",
+      "lifecycle": "native"
+    },
+    "codex": {
+      "minimum": "0.141.0",
+      "current": "0.141.0",
+      "lifecycle": "native"
+    },
+    "cursor": {
+      "minimum": "3.9.0",
+      "current": "3.18.9",
+      "lifecycle": "agent-plugins-standard"
+    },
+    "conductor": {
+      "minimum": "0.57.0",
+      "current": "0.83.1",
+      "lifecycle": "inherits-selected-agent",
+      "providers": ["claude-code", "codex"]
+    }
+  },
+  "setupPaths": ["claude-code", "codex", "cursor", "conductor", "chatgpt-remote", "mcp-only"]
+}

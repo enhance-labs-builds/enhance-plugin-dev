@@ -1,7 +1,7 @@
 # Changelog
 
-## 1.0.0-dev.sha-f96a72f2e937.f55d2a01aa4e
+## 1.0.0-dev.sha-cec1f7daaffa.f55d2a01aa4e
 
 - Add complete user-scoped installation for Claude Code, Codex, Cursor and Conductor.
 - Add four shared visual product workflows backed by the live Enhance MCP catalogue.
-- Pin the local MCP runtime to @enhance-eng/enhance-dev@0.1.7-dev.sha-f96a72f2e937.
+- Pin the local MCP runtime to @enhance-eng/enhance-dev@0.1.7-dev.sha-cec1f7daaffa.

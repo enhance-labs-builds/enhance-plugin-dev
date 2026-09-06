@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "enhance-dev": {
+      "command": "/bin/sh",
+      "args": ["-l", "-c", "exec node \"$1\"", "enhance-dev-mcp", "./dist/mcp-main.mjs"],
+      "cwd": "."
+    }
+  }
+}

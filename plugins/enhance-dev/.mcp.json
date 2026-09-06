@@ -1,12 +1,13 @@
 {
   "mcpServers": {
     "enhance-dev": {
-      "command": "npx",
+      "command": "/bin/sh",
       "args": [
-        "-y",
-        "--package",
-        "@enhance-eng/enhance-dev@0.1.7-dev.sha-cec1f7daaffa",
-        "enhance-dev-mcp"
+        "-l",
+        "-c",
+        "exec node \"$1\"",
+        "enhance-dev-mcp",
+        "${CLAUDE_PLUGIN_ROOT}/dist/mcp-main.mjs"
       ]
     }
   }

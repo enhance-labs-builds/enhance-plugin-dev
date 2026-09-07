@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "enhance-dev": {
-      "command": "/bin/sh",
+      "command": "sh",
       "args": [
         "-l",
         "-c",

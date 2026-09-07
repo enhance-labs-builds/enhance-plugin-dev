@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "channel": "development",
-  "pluginVersion": "1.0.1-dev.sha-3345ac7ecaec.1efe3e852079",
+  "pluginVersion": "1.0.2-dev.sha-2382f1f2cd14.fa50bba3327a",
   "node": {
     "minimum": "24"
   },
@@ -13,7 +13,7 @@
     },
     "codex": {
       "minimum": "0.141.0",
-      "current": "0.141.0",
+      "current": "0.153.4",
       "lifecycle": "native"
     },
     "cursor": {

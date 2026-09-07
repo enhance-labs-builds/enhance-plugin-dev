@@ -3,7 +3,7 @@
   "mcpServers": {
     "enhance-dev": {
       "type": "stdio",
-      "command": "/bin/sh",
+      "command": "sh",
       "args": [
         "-l",
         "-c",

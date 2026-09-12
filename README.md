@@ -2,7 +2,7 @@
 
 Enhance gives Claude Code, Codex, Cursor and agents run through Conductor a shared visual canvas for product design, feedback and interactive prototypes.
 
-This repository is the **development** channel. Its catalogue name is `enhance-dev` and its exact plugin version is `1.0.7-dev.sha-f8c40ded2a15.269898feea53`.
+This repository is the **development** channel. Its catalogue name is `enhance-dev` and its exact plugin version is `1.0.7-dev.sha-7b8f99b12bb5.5409efcc3c0f`.
 
 Install **Enhance** from your agent's plugin marketplace for your user account. The plugin starts its pinned MCP runtime. After restarting, ask your agent to sign you in; the agent calls `auth.login` to open the browser, then checks `auth.status` and a read such as `canvas.list`. You do not need a token, project file, separate CLI install, or terminal setup. If a marketplace listing is not yet available, copy the setup prompt from [Enhance](https://enhance3.karunalabs.ai/docs) and let the host configure its supported user-level MCP connection.
 

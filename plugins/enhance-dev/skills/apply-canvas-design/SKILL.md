@@ -5,7 +5,7 @@ description: Implement an approved or edited Enhance canvas design in the owning
 
 # Apply a canvas design
 
-Use the live Enhance MCP catalogue for executable detail. Search for a specific action or scan the catalogue for a broad handoff; describe before invoking.
+Use the installed interface: MCP tool contracts or CLI command help. A complete contract returned by search is ready to invoke; describe only when the contract is missing. No second interface is required. For canvas changes use `canvas_edit` / `canvas edit --edits`, preserve selection links, and reuse versions returned by successful writes. Render after a meaningful visual change.
 
 1. Read the selected canvas screen, its exact structure and render, the current prototype, and the owning source. Confirm the source and design versions are not stale.
 2. Identify the intended visual, structural, responsive, and interaction differences. Surface ambiguous or conflicting differences instead of inventing intent.

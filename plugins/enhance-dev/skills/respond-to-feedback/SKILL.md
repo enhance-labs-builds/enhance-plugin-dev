@@ -5,7 +5,7 @@ description: Act on clear Enhance canvas and prototype feedback, implement the u
 
 # Respond to feedback
 
-Use the live Enhance MCP catalogue for executable detail. Search for a specific action or scan the catalogue when the request spans canvas, comment, and prototype work; describe before invoking.
+Use the installed interface: MCP tool contracts or CLI command help. A complete contract returned by search is ready to invoke; describe only when the contract is missing. No second interface is required. For canvas changes use `canvas_edit` / `canvas edit --edits`, preserve selection links, and reuse versions returned by successful writes. Render after a meaningful visual change.
 
 1. Read the canvas, unresolved attention comments, related selections, and current prototype state. Preserve comment wording and authorship.
 2. Separate clear actions from ambiguous, conflicting, stale, or already-satisfied feedback. Ask the person only where the intended result cannot safely be inferred.

@@ -1,7 +1,8 @@
 # Changelog
 
-## 1.0.9-dev.sha-531035e6702e.272fc49f063b
+## 1.0.10-dev.sha-1895395f1119.bd59add45689
 
-- Add complete user-scoped installation for Claude Code, Codex, Cursor and Conductor.
-- Add four shared visual product workflows backed by the live Enhance MCP catalogue.
-- Pin the local MCP runtime to @enhance-eng/enhance-dev@0.1.14-dev.sha-531035e6702e.
+- Add direct canvas authoring, atomic edit batches and exact-version rendering to local MCP.
+- Return committed writes immediately and preserve their receipts when visual review fails.
+- Update the four shared skills to reuse known state and avoid unnecessary discovery and rendering.
+- Pin the local MCP runtime to @enhance-eng/enhance-dev@0.1.15-dev.sha-1895395f1119.

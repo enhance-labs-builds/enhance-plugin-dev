@@ -5,7 +5,7 @@ description: Publish a local product build to an Enhance canvas and visually ver
 
 # Publish a prototype
 
-Use Enhance's live MCP capability catalogue for executable detail. For a specific action, search; when uncertain or spanning steps, scan the catalogue. Describe the exact capability before invoking it.
+Use the installed interface: MCP tool contracts or CLI command help. A complete contract returned by search is ready to invoke; describe only when the contract is missing. No second interface is required. For canvas changes use `canvas_edit` / `canvas edit --edits`, preserve selection links, and reuse versions returned by successful writes. Render after a meaningful visual change.
 
 1. Read the target canvas and current prototype state before changing anything.
 2. Ask for the intended local build directory if the person has not selected one. Never guess a directory or publish an unrelated working tree.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pluginVersion": "1.0.12-dev.sha-a298fc406ad0.dde8f024fe9d",
+  "pluginVersion": "1.0.13-dev.sha-5acd5512abef.55e896585653",
   "remoteStarterPrompts": [
     "Open and summarize my populated Enhance example canvas.",
     "Inspect and render this Enhance canvas.",

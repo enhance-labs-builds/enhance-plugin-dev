@@ -1,8 +1,8 @@
 # Changelog
 
-## 1.0.15-dev.sha-291fc392e18c.f6025ba6bb8c
+## 1.0.15-dev.sha-2842774a0a99.f455c91277a8
 
 - Preserve typography units, rich text and reusable style ownership in canvas authoring.
 - Expose text style library discovery and publication with complete command guidance.
 - Keep browser font upload and transfer lifecycle operations inside authoring transactions.
-- Pin the local MCP runtime to @enhance-eng/enhance-dev@0.1.20-dev.sha-291fc392e18c.
+- Pin the local MCP runtime to @enhance-eng/enhance-dev@0.1.20-dev.sha-2842774a0a99.

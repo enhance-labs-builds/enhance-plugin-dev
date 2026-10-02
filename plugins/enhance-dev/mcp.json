@@ -4,6 +4,9 @@
     "enhance-dev": {
       "type": "stdio",
       "command": "sh",
+      "env": {
+        "ENHANCE_MCP_PROFILE": "canvas"
+      },
       "args": [
         "-l",
         "-c",

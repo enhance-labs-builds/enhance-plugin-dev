@@ -25,9 +25,9 @@
         "privacyPolicyURL": "https://enhance3.karunalabs.ai/privacy-policy",
         "termsOfServiceURL": "https://enhance3.karunalabs.ai/docs/terms",
         "defaultPrompt": [
-          "Design a product screen on my Enhance canvas.",
-          "Publish and visually verify this prototype.",
-          "Apply feedback or an approved canvas design to my prototype source."
+          "Open and summarize my populated Enhance example canvas.",
+          "Inspect and render this Enhance canvas.",
+          "Design a product screen on my Enhance canvas."
         ],
         "brandColor": "#18181B",
         "composerIcon": "./assets/icon.svg",
@@ -43,10 +43,10 @@
       "termsOfServiceURL": "https://enhance3.karunalabs.ai/docs/terms",
       "supportURL": "https://enhance3.karunalabs.ai/docs/support",
       "starterPrompts": [
+        "Open and summarize my populated Enhance example canvas.",
+        "Inspect and render this Enhance canvas.",
         "Design a product screen on my Enhance canvas.",
-        "Publish and visually verify this prototype.",
-        "Apply the actionable feedback on my canvas.",
-        "Reconcile this canvas design into my prototype source."
+        "Apply the actionable feedback on my Enhance canvas."
       ],
       "brandColor": "#18181B"
     }

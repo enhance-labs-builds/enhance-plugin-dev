@@ -2,6 +2,9 @@
   "mcpServers": {
     "enhance-dev": {
       "command": "sh",
+      "env": {
+        "ENHANCE_MCP_PROFILE": "canvas"
+      },
       "args": [
         "-l",
         "-c",

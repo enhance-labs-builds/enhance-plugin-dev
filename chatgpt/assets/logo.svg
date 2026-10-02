@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 320" role="img" aria-label="Enhance">
+  <rect width="1180" height="320" rx="56" fill="#18181b"/>
+  <g transform="translate(48 34) scale(.49)"><path fill="#fff" fill-rule="evenodd" d="M256 45a34 34 0 0 0-34 34v95l-67-67a34 34 0 0 0-48 48l67 67H79a34 34 0 0 0 0 68h95l-67 67a34 34 0 0 0 48 48l67-67v95a34 34 0 0 0 68 0v-95l67 67a34 34 0 0 0 48-48l-67-67h95a34 34 0 0 0 0-68h-95l67-67a34 34 0 0 0-48-48l-67 67V79a34 34 0 0 0-34-34Z"/></g>
+  <text x="352" y="210" fill="#fff" font-family="Inter, system-ui, sans-serif" font-size="150" font-weight="600" letter-spacing="-7">enhance</text>
+</svg>

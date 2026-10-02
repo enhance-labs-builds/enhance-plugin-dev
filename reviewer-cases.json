@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pluginVersion": "1.0.17-dev.sha-7a2f73e20c72.97a9d744257b",
+  "pluginVersion": "1.0.19-dev.sha-35af4b72eded.eee5434b2bca",
   "remoteStarterPrompts": [
     "Open and summarize my populated Enhance example canvas.",
     "Inspect and render this Enhance canvas.",
@@ -35,12 +35,12 @@
     },
     {
       "intent": "Publish the build in my local project from ChatGPT",
-      "expected": "Explains that local build publication needs the local Enhance plugin and does not suggest a CLI workaround",
+      "expected": "Explains that a remote connection cannot read the local project; requests a host-accessible build upload when publication is advertised, or uses the local Enhance plugin",
       "kind": "negative"
     },
     {
       "intent": "Reconcile this canvas into the prototype source on my computer from ChatGPT",
-      "expected": "Explains that local source access needs the local Enhance plugin and does not pretend the remote server can read it",
+      "expected": "Uses source access only when the host provides it; otherwise explains how to continue in a local coding host without pretending the remote MCP can read the computer",
       "kind": "negative"
     },
     {

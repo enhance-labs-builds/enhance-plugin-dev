@@ -20,7 +20,7 @@ Example returned root (illustrative IDs; use the actual returned IDs):
 
 Retained elements accept only data-enhance-id, data-enhance-name, data-enhance-opaque and style. Use ordinary inline CSS declarations, with no duplicate property, !important or at-rule. Keep unrelated authored styles. The native style owner validates changes and preserves properties not represented by this projection.
 
-Add a populated new subtree without retained identity or opaque markers. New content goes through the same safe HTML compiler as canvas_insert_html, receives fresh identities and returns a loss report. Prefer concrete inline CSS and explicit dimensions for each meaningful group. Do not include scripts, event handlers, embedded executable documents or executable URLs. Unsupported compilation is reported, not a guarantee of arbitrary browser HTML fidelity. Assets must use supported ready resources; importing an asset does not place it.
+Add a populated new subtree without retained identity or opaque markers. New content goes through the same safe HTML compiler as canvas_insert_html, receives fresh identities. Prefer concrete inline CSS and explicit dimensions for each meaningful group. Do not include scripts, event handlers, embedded executable documents or executable URLs. Available content becomes editable even when fidelity is incomplete. Available assets are retained; unavailable assets do not prevent insertion. Importing an asset does not place it.
 
 Example complete update changing the title and adding a notice:
 
@@ -36,6 +36,6 @@ Omission is not implicit deletion. Declare intentional omitted subtrees in remov
 
 Reuse identical arguments and the same clientToken after an uncertain response. A conflict requires a fresh scoped read and deliberate replan. Do not issue a fresh token merely to bypass the conflict or an unknown outcome. Keep the returned revision and identity mappings. Render the affected root at that revision and inspect its pixels; successful compilation alone is not visual verification.
 
-## Bounds
+## Completeness
 
-Editable reads and complete updates allow at most 80000 JavaScript string characters, 1000 elements and a depth of 64. An update can compile at most 32 new subtrees. The atomic native operation budget may impose a tighter limit. Read a smaller complete root or split independent edits using each committed revision. Never split a dependent edit into unverified partial writes.
+Submit the complete intended edit. There is no node, source-length or operation-count ceiling. Unsupported optional visual features use the compiler's available representation. Identity, scope, lock and revision checks still govern retained objects and canonical writes.

@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "enhance-dev",
-  "version": "1.0.26-dev.sha-33275c59fedc.00c5ad5bcb86",
+  "version": "1.0.26-dev.sha-998603e89168.92831ffb7265",
   "description": "Design, edit, review and publish interactive product canvases with your agent.",
   "author": {
     "name": "Enhance",

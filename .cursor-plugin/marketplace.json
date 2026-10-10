@@ -5,7 +5,7 @@
     "email": "support@enhance3.karunalabs.ai"
   },
   "metadata": {
-    "version": "1.0.25-dev.sha-da5fdf0a11ba.5e8a07952cbf",
+    "version": "1.0.25-dev.sha-b50ce964b12c.aac49c985106",
     "description": "Design, edit, review and publish interactive product canvases with your agent."
   },
   "plugins": [
@@ -13,7 +13,7 @@
       "name": "enhance-dev",
       "source": "plugins/enhance-dev",
       "description": "Design, edit, review and publish interactive product canvases with your agent.",
-      "version": "1.0.25-dev.sha-da5fdf0a11ba.5e8a07952cbf"
+      "version": "1.0.25-dev.sha-b50ce964b12c.aac49c985106"
     }
   ]
 }

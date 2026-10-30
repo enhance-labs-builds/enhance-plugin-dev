@@ -11,7 +11,7 @@ Preserve the complete canvas, page or selection link. Its scope stays authoritat
 
 For new content, insert a complete populated screen or meaningful group with `canvas_insert_html` at an explicit destination and observed revision. An empty canvas needs no pre-render. Publish each populated screen before preparing the next so the person can steer. Prefer concrete inline layout, editable text and useful groups; the HTML compiler reports unsupported content. Use `asset_import` when an authorized image or font needs importing, then use its ready resource reference in the design. Importing a resource does not place it on the canvas.
 
-The versioned HTML reference is the MCP resource `enhance://canvas/html/1` and the package’s `references/canvas-html-v1.md`. Consult it when composing or reconciling HTML; the essential constraints are also in the tool descriptions.
+The versioned HTML reference is the MCP resource `enhance://canvas/html/2` and the package’s `references/canvas-html-v2.md`. Consult it when composing or reconciling HTML; the essential constraints are also in the tool descriptions.
 
 For existing content, obtain a complete editable root with `canvas_read`. Edit its returned HTML and submit it with the original snapshot token through `canvas_update_html`. Preserve retained identity, names and opaque placeholders; new populated subtrees have no retained identity markers. Omission is not implicit deletion: declare intended removals, or use `canvas_remove` for explicit subtree deletion. Use `canvas_arrange` and `canvas_duplicate` for their structural operations rather than rebuilding objects. Keep locked and unsupported content intact.
 

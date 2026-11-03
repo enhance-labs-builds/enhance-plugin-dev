@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "7a9909ddc4e3bd1c9726f6303f2c5ced44d564fa",
+  "sourceCommit": "0b84c360ed9b5799a0a9f5937abdc69396e174e6",
   "channel": "development",
   "catalogue": "enhance-dev",
-  "pluginVersion": "1.0.38-dev.sha-7a9909ddc4e3.aec729040bef",
+  "pluginVersion": "1.0.38-dev.sha-0b84c360ed9b.e56149b8c3a1",
   "runtimePackage": "@enhance-eng/enhance-dev",
-  "runtimeVersion": "0.1.40-dev.sha-7a9909ddc4e3",
-  "runtimeDigest": "2ec33809a7040692e095b8a90d3960fb3efa0b839f49a492f68ee2dee6efe3eb",
-  "reviewableDigest": "aec729040befc3adb3e793d3e5e4c97f221fe35e09cd2613884b70855f43b806",
-  "packageDigest": "985271c385bed2b334926ca02705581c3c0df5541b966a474a1a3b1051234abd",
+  "runtimeVersion": "0.1.40-dev.sha-0b84c360ed9b",
+  "runtimeDigest": "4bea1bd579c76429b85228f4881cc05e0d451cca78d5f1582b0f29e30ba4260a",
+  "reviewableDigest": "e56149b8c3a1c5e9cb8cc2b95cecc33a6e9b50d871ff07832fb7cffc0eddcf44",
+  "packageDigest": "3b56bb014d7834f5bcf4da67ed424a2adfaf34d078d32781d2c2bb64fee528da",
   "desktop": {
     "artifact": "enhance.mcpb",
-    "sha256": "d010ca3033b8045b81b692204e1d38557c08f5608b6ea40b03a3852cc8dd6758",
-    "bytes": 492735
+    "sha256": "a7e2302bc1e150de76d519fdf3d71241e1a670bb2ccb50b6bda0e52a87bea11f",
+    "bytes": 492738
   },
-  "runtimeSpecifier": "@enhance-eng/enhance-dev@0.1.40-dev.sha-7a9909ddc4e3",
+  "runtimeSpecifier": "@enhance-eng/enhance-dev@0.1.40-dev.sha-0b84c360ed9b",
   "runtimeBinary": "enhance-dev-mcp",
   "mcpServerName": "enhance-dev"
 }

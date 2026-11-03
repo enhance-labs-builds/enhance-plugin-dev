@@ -7,7 +7,7 @@ description: Publish a selected product build to an Enhance canvas and visually 
 
 Use the installed `prototype_publish` contract. Local and hosted input acquisition differ; the native publication and canvas attachment lifecycle is the same. MCP work does not require a separate CLI. When the person chooses the CLI, use its command help.
 
-Preserve the complete target canvas or page link and read its current outline and prototype state. Reuse the observed revision and the intended existing prototype when refreshing it. Do not silently create a second prototype to avoid an attachment conflict.
+Preserve the complete target canvas or page link and read its current outline and prototype state. Reuse the observed revision and the intended existing prototype when refreshing it. To update a prototype, publish to its owner node: pass its `prototypeId` and that node's id as `nodeId` to `prototype_publish`. Publishing to any other node that shows the prototype forks that node into its own prototype, which keeps its label, and leaves the original alone. An update keeps the title the node shows; you must still pass a `title` of 200 characters or fewer, and it only names a new node. Do not silently create a second prototype to avoid an attachment conflict.
 
 Acquire exactly the build the person selected. A local runtime accepts a build directory that the calling host can access. A hosted runtime accepts an authorized file reference when its listed contract provides that capability; use the host's supported artifact selection or upload flow. A local path is not a hosted artifact. If the input has not been selected, ask for it. If transfer is unavailable, explain the missing capability without pretending a server can read the person's computer.
 

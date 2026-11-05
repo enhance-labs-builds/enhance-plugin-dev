@@ -1,8 +1,8 @@
 # Changelog
 
-## 1.0.38-dev.sha-b88f47583977.35706833a6c7
+## 1.0.38-dev.sha-09254c5bf0be.246221b55559
 
 - Use the focused canvas MCP profile for discovery, scoped reads, HTML edits, rendering and feedback.
 - Bundle four canvas workflows with conflict recovery and visual verification.
 - Keep local filesystem publication in local integrations and OAuth in the hosted integration.
-- Pin the local MCP runtime to @enhance-eng/enhance-dev@0.1.40-dev.sha-b88f47583977.
+- Pin the local MCP runtime to @enhance-eng/enhance-dev@0.1.40-dev.sha-09254c5bf0be.

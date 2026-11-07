@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "channel": "development",
-  "pluginVersion": "1.0.38-dev.sha-c4bfa59c4a77.1ceae81d8a0c",
+  "pluginVersion": "1.0.38-dev.sha-31c6bffb32fd.9f5c82b3f607",
   "node": {
     "minimum": "24"
   },

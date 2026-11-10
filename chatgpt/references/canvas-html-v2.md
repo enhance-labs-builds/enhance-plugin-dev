@@ -34,6 +34,10 @@ Example complete update changing the title and adding a notice:
 
 A new subtree cannot contain retained IDs or opaque placeholders. Insert a container and use canvas_arrange to move retained objects into it. New fragments are compiled independently; do not rely on inherited parent measurements or styles. Use explicit child dimensions and styles, then inspect the committed rendering. For a separate screen, prefer canvas_insert_html at an explicit parent and observed baseVersion.
 
+## Fonts
+
+Inter and JetBrains Mono are built into every canvas: write font-family: Inter or font-family: 'JetBrains Mono' and the text renders and measures in those faces without an import. The CSS generic families (sans-serif, serif, monospace, system-ui and the others) need no import either. Any other family must be imported with asset_import before text uses it; use the family the ready resource names. Text in a family that has no face on the canvas renders in a fallback and shows as a missing font.
+
 ## Deletion, commitment and recovery
 
 Omission is not implicit deletion. Declare intentional omitted subtrees in removeNodeIds, or call canvas_remove with explicit roots. Locked content prevents the whole invalid edit. A no-op creates no revision. A pending preparation is not a commit: follow operation_status and its continuation until the outcome states whether the canvas changed.

@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.39-dev.sha-dcb50af28c57.e2fb9732e303
+## 1.0.39-dev.sha-7dbaabd60485.d52786b9c59a
 
 - Use the focused canvas MCP profile for discovery, scoped reads, HTML edits, rendering and feedback.
 - Bundle four canvas workflows with conflict recovery and visual verification.

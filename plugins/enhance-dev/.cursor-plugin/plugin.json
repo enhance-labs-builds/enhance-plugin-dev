@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "enhance-dev",
-  "version": "1.0.39-dev.sha-e7d1b8819ed0.b8b47b2d183c",
+  "version": "1.0.39-dev.sha-896d5d24b9cd.afa568cb9215",
   "description": "Design, edit, review and publish interactive product canvases with your agent.",
   "author": {
     "name": "Enhance",
@@ -46,7 +46,8 @@
         "Design a product screen on my Enhance canvas.",
         "Publish and visually verify this prototype.",
         "Apply the actionable feedback on my canvas.",
-        "Reconcile this canvas design into my prototype source."
+        "Reconcile this canvas design into my prototype source.",
+        "Put the screens I changed on an Enhance canvas."
       ],
       "brandColor": "#18181B"
     }

@@ -12,6 +12,7 @@ Create or change editable screens on an Enhance canvas, look at what you made, a
 - `canvas_create` with a `title` makes a canvas and answers with its id and its link.
 - The description of `canvas_read` shows how to read what a canvas holds: its outline, or one screen as HTML.
 - The description of `canvas_insert_html` shows how to add a screen as HTML, with an example. Read it before the first insert.
+- Give a new top-level screen `"placement": {"kind": "auto"}` so Enhance puts it in free space, unless the person gave coordinates. Place the next screen of a sequence with `{"kind": "near", "anchorNodeId": "<the previous screen's id from its answer>", "side": "right"}`.
 - The description of `canvas_edit` shows how to change text, styles, names and order on layers that are already there, and copy a layer, many in one call. Use it for any change to existing work.
 - The description of `canvas_update_html` shows how to rebuild the inside of a layer. Use it only when the structure itself changes.
 - The description of `asset_import` shows how to bring in an image or a font.

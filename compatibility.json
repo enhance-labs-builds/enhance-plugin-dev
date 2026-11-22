@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "channel": "development",
-  "pluginVersion": "1.0.39-dev.sha-92fcb72b0bed.95cc84a4e50d",
+  "pluginVersion": "1.0.39-dev.sha-b83018228e60.6640bec5811b",
   "hosts": {
     "claude-code": {
       "minimum": "2.1.143",

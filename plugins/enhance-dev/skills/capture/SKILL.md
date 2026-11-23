@@ -5,7 +5,9 @@ description: Put the screens a thread is changing onto an Enhance canvas as edit
 
 # Capture screens to Enhance
 
-Put each screen this thread is changing onto one Enhance canvas as an editable frame, and return the canvas link.
+Put each screen this thread is changing onto one Enhance canvas as an editable frame, and return the canvas link. The person should see their first screen within a couple of minutes and the whole set within five.
+
+A capture is cheap and can be redone, so capture each page as soon as it is in the state you want, as it is, at whatever size it has. When a state needs data, such as an account or a finished step, make it yourself where the app runs, with its seed script or its own API, rather than asking the person. Place each page as soon as you capture it, and give the person the link with the first one. For a whole flow, walk it once and capture as you go.
 
 ## Tools
 

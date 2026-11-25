@@ -10,7 +10,7 @@
       "name": "enhance-dev",
       "source": "./plugins/enhance-dev",
       "description": "Design, edit, review and publish interactive product canvases with your agent.",
-      "version": "1.0.39-dev.sha-64465b06605f.c15f92da600e"
+      "version": "1.0.39-dev.sha-1af91e93945f.691c0633e5c0"
     }
   ]
 }

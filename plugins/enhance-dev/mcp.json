@@ -6,7 +6,7 @@
       "command": "sh",
       "args": [
         "-c",
-        "helper=$1/$(PATH=/usr/bin:/bin:$PATH uname -s)-$(PATH=/usr/bin:/bin:$PATH uname -m)/enhance-helper\nif [ ! -x \"$helper\" ]; then\n  printf '%s\\n' 'Enhance does not support this computer yet.' >&2\n  exit 127\nfi\nexec \"$helper\" --environment development --tools \"$1/tools.json\"",
+        "helper=$1/$(PATH=/usr/bin:/bin:$PATH uname -s)-$(PATH=/usr/bin:/bin:$PATH uname -m)/enhance-helper\nif [ ! -x \"$helper\" ]; then\n  printf '%s\\n' 'Enhance does not support this computer yet.' >&2\n  exit 127\nfi\nexec \"$helper\" --environment development --tools \"$1/tools.json\" --host other",
         "enhance-dev-mcp",
         "${PLUGIN_ROOT}/helper"
       ]

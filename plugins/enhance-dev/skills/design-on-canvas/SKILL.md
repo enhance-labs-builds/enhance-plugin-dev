@@ -47,7 +47,7 @@ Before the first write, tell the person your design brief in a few lines: the mo
 
 ## Fonts, units and sizes
 
-- Use the canvas's fonts or import one; put an @font-face whose src is the path the import returned in each write that uses it, since the family name alone draws a fallback. If you cannot, use the closest, say so, and go on. Set font sizes and line heights in px, and letter spacing in em.
+- Use the canvas's fonts or import one, each file of a typeface; then write the font-family, font-weight and font-style the import's answer gives in use, with no @font-face. If a write's issues say a font is missing, fix the name or import it; if you cannot, use the closest, say so, and go on. Set font sizes and line heights in px, and letter spacing in em.
 - Start a new screen at 1440 by 900 for desktop, 768 by 1024 for tablet or 390 by 844 for mobile, unless the brief or the product says otherwise; the height is only a starting point.
 - A mobile screen starts with the status bar of the guide's `mobile-status-bar` topic, pasted as its first child; never draw one by hand.
 

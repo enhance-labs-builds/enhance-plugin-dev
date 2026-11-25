@@ -36,7 +36,17 @@ A new subtree cannot contain retained IDs or opaque placeholders. Insert a conta
 
 ## Fonts
 
-Inter and JetBrains Mono are built into every canvas: write font-family: Inter or font-family: 'JetBrains Mono' and the text renders and measures in those faces without an import. The CSS generic families (sans-serif, serif, monospace, system-ui and the others) need no import either. Any other family must be imported with asset_import before text uses it; use the family the ready resource names. Text in a family that has no face on the canvas renders in a fallback and shows as a missing font.
+Inter and JetBrains Mono are built into every canvas: write font-family: Inter or font-family: 'JetBrains Mono' and the text renders and measures in those faces without an import. The CSS generic families (sans-serif, serif, monospace, system-ui and the others) need no import either. Any other family must be imported with asset_import before text uses it.
+
+Then name the font as CSS does, with the font-family, font-weight and font-style that the import's answer gives in use. No @font-face rule is needed. Import each file of a typeface: its files share one family, and the browser picks the file for each weight, or the nearest one when the typeface has no file at that weight. A file's own per-file name (the family in its metadata, such as 'Typeface Bold') names that one file. canvas_read with view resources lists the canvas's imported fonts and what to write for each. A PostScript name such as Typeface-Bold is not a family name.
+
+For example, after importing Typeface-Light.otf, Typeface-Demi.otf and Typeface-Bold.otf, whose answers give font-family 'Typeface' with font-weight 300, 600 and 700:
+
+```html
+<div style="display:flex;flex-direction:column;gap:8px;font-family:'Typeface'"><span style="font-weight:700;font-size:32px">Quarterly results</span><span style="font-weight:300;font-size:16px">Revenue grew in every region.</span></div>
+```
+
+A write whose text names a family the canvas has no font for, or a weight or style the family lacks, draws it in the next family or the nearest face, and says so in its result's issues, with the fonts the canvas has.
 
 ## Deletion, commitment and recovery
 

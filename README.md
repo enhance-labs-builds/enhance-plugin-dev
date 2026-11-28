@@ -2,7 +2,7 @@
 
 Enhance gives Claude Code, Codex, Cursor and agents run through Conductor a shared visual canvas for product design, feedback and interactive prototypes.
 
-This repository is the **development** channel. Its catalogue name is `enhance-dev` and its exact plugin version is `1.0.39-dev.sha-7282c7a77493.78e69d921120`.
+This repository is the **development** channel. Its catalogue name is `enhance-dev` and its exact plugin version is `1.0.39-dev.sha-32c46473a200.9d3381e3baec`.
 
 Install **Enhance** from your agent's plugin marketplace for your user account. The plugin starts its pinned MCP runtime. After restarting, ask your agent to sign you in; the agent calls `connection_connect` to open the browser, then checks `connection_status` and a read such as `canvas_find`. You do not need a token, project file, separate CLI install, or terminal setup. If a marketplace listing is not yet available, copy the setup prompt from [Enhance](https://enhance3.karunalabs.ai/docs) and let the host configure its supported user-level MCP connection.
 
@@ -20,7 +20,7 @@ Enhance releases often. Most changes reach you without an update, because the pl
 
 To compare versions, the helper reads this repository's public catalogue file (`.claude-plugin/marketplace.json`) once per session. It fetches nothing else and never changes its own files; only your agent app installs updates.
 
-For Claude Desktop, download [the extension bundle](https://github.com/enhance-labs-builds/enhance-plugin-dev/releases/download/plugin-v1.0.39-dev.sha-7282c7a77493.78e69d921120/enhance.mcpb) and [its SHA-256 checksum](https://github.com/enhance-labs-builds/enhance-plugin-dev/releases/download/plugin-v1.0.39-dev.sha-7282c7a77493.78e69d921120/enhance.mcpb.sha256) from this exact release. Open the bundle in Claude Desktop and complete the native installation. It includes the same runtime and four workflows. Ask Claude to connect Enhance, complete browser sign-in, and verify a canvas read. Manage updates and removal in Claude's extension settings. The development and stable bundles have separate identities and credentials.
+For Claude Desktop, download [the extension bundle](https://github.com/enhance-labs-builds/enhance-plugin-dev/releases/download/plugin-v1.0.39-dev.sha-32c46473a200.9d3381e3baec/enhance.mcpb) and [its SHA-256 checksum](https://github.com/enhance-labs-builds/enhance-plugin-dev/releases/download/plugin-v1.0.39-dev.sha-32c46473a200.9d3381e3baec/enhance.mcpb.sha256) from this exact release. Open the bundle in Claude Desktop and complete the native installation. It includes the same runtime and four workflows. Ask Claude to connect Enhance, complete browser sign-in, and verify a canvas read. Manage updates and removal in Claude's extension settings. The development and stable bundles have separate identities and credentials.
 
 After connecting, try one of these:
 
